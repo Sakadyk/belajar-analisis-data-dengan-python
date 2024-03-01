@@ -103,7 +103,7 @@ with tab1:
     }, inplace=True)
     bycity_df = all_data_df['customer_city'].value_counts().head(10)
 
-    fig, ax = plt.subplots(1, 2, figsize=(26, 6))
+    fig, ax = plt.subplots(1, 2, figsize=(27, 7))
 
     # Plot untuk customer_count berdasarkan negara bagian
     most_common_state = bystate_df.loc[bystate_df['customer_count'].idxmax(), 'customer_state']
