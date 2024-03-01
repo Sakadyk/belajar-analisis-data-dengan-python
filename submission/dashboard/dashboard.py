@@ -41,10 +41,10 @@ def plot_map(data):
     st.pyplot(fig=ax.figure)
 
 # all_data dataset
-all_data_df = pd.read_csv("all_data.csv")
+all_data_df = pd.read_csv("./submission/dashboard/all_data.csv")
 
 # geolocation dataset
-geolocation_df = pd.read_csv('customer_plotmap.csv')
+geolocation_df = pd.read_csv('./submission/dashboard/customer_plotmap.csv')
 
 datetime_columns = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
 all_data_df.sort_values(by="order_approved_at", inplace=True)
