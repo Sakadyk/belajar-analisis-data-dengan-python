@@ -1,4 +1,4 @@
-﻿
+
 # Submission Dicoding "Belajar Analisis Data dengan Python"
 
 ## Proyek Analisis Data "Dashboard E-Commerce Brazil :convenience_store:"
@@ -15,8 +15,6 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset yang
 - **notebook.ipynb dan notebook_local.ipynb**: Merupakan file notebook tempat analisis dataset dilakukan. **notebook.ipynb** diperuntukkan bila akan dijalankan di Google Colab, sedangkan **notebook_local.ipynb** untuk aplikasi Jupyter Notebook lokal (Anaconda, Miniconda, dll).
 
 ## Instalasi 
-
-*Karena alasan batasan ukuran file, untuk bisa menjalankan aplikasi Streamlit secara lokal diharuskan menjalankan file notebook yang terlampirkan guna membuat dataset baru (all_data.csv dan customer_plotmap.csv). Dataset tersebut akan digunakan di aplikasi Streamlit.
 
 1. Unduh repo ini sebagai ZIP.
 	- Jika memakai Google Colab, ekstrak di mana saja, lalu upload folder **submission** beserta segala isinya ke halaman awal atau direktori paling luar dari Google Drive Anda. 
@@ -45,4 +43,4 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset yang
 	streamlit run dashboard.py
 	```
 
-Atau bisa dengan mengunjungi laman [Proyek Analisis Data]().
+Atau bisa dengan mengunjungi laman [Proyek Analisis Data](https://belajar-data-analytics-dengan-python.streamlit.app/).
