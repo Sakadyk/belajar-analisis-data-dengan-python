@@ -71,7 +71,7 @@ with st.sidebar:
     st.title("Satria Harya Sulistyo")
 
     # PP Pembuat
-    st.image("doom.png")
+    st.image("./submission/dashboard/doom.png")
 
     # Tanggal
     start_date, end_date = st.date_input(
